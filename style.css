@@ -1,0 +1,87 @@
+body{
+    background-color: darkgray;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+.baslik{
+    color: rgb(53, 53, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 36px;
+    color: rgb(59, 59, 163);
+    margin: 0px;
+}
+.ikon {
+    font-size: 24px;
+}
+.populer{
+    color: black;
+    font-size: 20px;
+}
+.metin {
+    font-weight: 400;
+    text-align: left;
+    padding: 0px 15px;
+}
+.kitaplar {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(87, 85, 85, 0.425);
+    border-radius: 10px;
+}
+.kitap{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    max-width: 250px;
+}
+.kitap-adi {
+    color: white;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.kitap-fiyati {
+    color: rgba(0, 0, 0, 0.808);
+    font-size: 20px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-bar {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+}
+.kitap-sec {
+    margin: 0px 20px;
+}
+.kitap-turleri {
+    font-size: 24px;
+    padding: 5px 15px;
+}
+
+.resim{
+    border-radius: 10px;
+}
+.aciklama{
+    font-size: 13px;
+    color: rgb(17, 16, 16);
+}

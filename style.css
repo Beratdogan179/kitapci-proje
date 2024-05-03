@@ -32,7 +32,7 @@ body{
     text-align: left;
     padding: 0px 15px;
 }
-.kitaplar {
+.populer-kitaplar {
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
